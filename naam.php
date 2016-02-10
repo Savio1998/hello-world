@@ -1,8 +1,8 @@
-<?php
+<?php 
 ?>
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Naam</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -11,6 +11,12 @@
   <? include 'navbar.php'; ?>
 </head>
 <body>
-    <h3> PHP/HTML5</h3>
 </body>
-</html>
+</html> <?
+    $a = "Savio ";
+    $b = "Kwasiba";
+    
+    $c = $a . $b;
+    
+    echo $c;
+       

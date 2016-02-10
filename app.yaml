@@ -9,5 +9,20 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: .*
+- url: /
   script: main.php
+
+- url: /busreis
+  script: busreis.php
+  
+- url: /error
+  script: error.php
+  
+- url: /naam
+  script: naam.php
+  
+- url: /kerstboom
+  script: kerstboom.php
+  
+- url: /While>>For
+  script: wnf.php
