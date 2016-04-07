@@ -10,14 +10,16 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <? include 'navbar.php'; ?>
   <style>
-      body{
+      #kerst{
           text-align:center;
+          float: left;
+          margin-left: 20px;
       }
       </style>
 </head>
 <body>
-</body>
-</html> <?
+    <div id="kerst";>
+    <? 
 $hoogte = 10;
 
 for($kerstballen = 0; $kerstballen < $hoogte; $kerstballen++){
@@ -25,5 +27,8 @@ for($kerstballen = 0; $kerstballen < $hoogte; $kerstballen++){
         echo " * ";
     }
     echo "<br>";
-}
+} ?>
+</div>
+</body>
+</html> 
 

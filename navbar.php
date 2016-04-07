@@ -8,21 +8,30 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://php-savio.appspot.com/">Savio</a>
+      <a class="navbar-brand" href="/">Savio</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="http://php-savio.appspot.com/">Home</a></li>
-        <li><a href="http://php-savio.appspot.com/naam">Naam</a></li>
-        <li><a href="http://php-savio.appspot.com/error">Foutmelding</a></li>
-        <li><a href="http://php-savio.appspot.com/busreis">Busreis</a></li>
-        <li><a href="http://php-savio.appspot.com/kerstboom">Kerstboom</a></li>
-        <li><a href="http://php-savio.appspot.com/While>>For">W > F</a></li>
+         <li class="active"><a href="/">Home</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Opdrachten php
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href="naam.php">Naam</a></li>
+        <li><a href="/error.php">Foutmelding</a></li>
+        <li><a href="busreis.php">Busreis</a></li>
+        <li><a href="/kerstboom.php">Kerstboom</a></li>
+        <li><a href="/wnf.php">W > F</a></li>
+        <li><a href="/zwembad.php">Zwemmers</a></li>
+        <li><a href="/kapper.php">Kapperzaak</a></li>
+        <li><a href="/functions.php">Functies</a></li>
     </ul>
   </div>
   <div class="dropdown">

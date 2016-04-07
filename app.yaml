@@ -5,24 +5,15 @@ api_version: 1
 threadsafe: yes
 
 handlers:
-- url: /favicon\.ico
-  static_files: favicon.ico
-  upload: favicon\.ico
+# Serve images as static resources.
+- url: /(.+\.(ico|gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(ico|gif|png|jpg)$
+  application_readable: true
 
+# Serve php scripts.
 - url: /
   script: main.php
-
-- url: /busreis
-  script: busreis.php
   
-- url: /error
-  script: error.php
-  
-- url: /naam
-  script: naam.php
-  
-- url: /kerstboom
-  script: kerstboom.php
-  
-- url: /While>>For
-  script: wnf.php
+- url: /(.+php)$
+  script: \1
