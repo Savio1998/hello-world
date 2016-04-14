@@ -10,6 +10,9 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+ 
+</style>
 </head>
 <body>
 
@@ -19,7 +22,8 @@
       <a class="navbar-brand" href="/">Savio</a>
     </div>
     <ul class="nav navbar-nav">
-         <li class="active"><a href="/">Home</a></li>
+         <li ><a href="/">Home</a></li>
+         
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown">Opdrachten php
         <span class="caret"></span></a>
@@ -33,10 +37,8 @@
         <li><a href="/kapper.php">Kapperzaak</a></li>
         <li><a href="/functions.php">Functies</a></li>
     </ul>
+     <li><a href="/mrweely.php">Mr. Weely</a></li>  
   </div>
-  <div class="dropdown">
-  
-</div>
 </nav>
 </body>
 </html>

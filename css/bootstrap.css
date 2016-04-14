@@ -6582,3 +6582,50 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.image {
+    display: inline-block;
+    position: relative;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 0px;
+    text-shadow: 1px 1px 8px #ffffff;
+}
+.image h5 { 
+   color: white;
+   margin-top: -40px;
+   padding: 5px;
+   padding-left: 15px;
+   position: absolute;
+   width: 100%; 
+   background-color: Black;
+   z-index: 1;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+   filter: alpha(opacity=70);
+   opacity: .7;
+   border-radius: 10px;
+   
+}
+select {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+input[type=text]:focus {
+    border: 2px white smoke;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
